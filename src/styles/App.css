@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, hsla(266, 100%, 40%, 1) 30%, hsla(199, 39%, 72%, 1) 95%, hsla(191, 47%, 77%, 1) 100%);
+  color: #fff;
+  height: 200vh;
+}
+
+h4 {
+  text-align: left;
+  margin-left: 40px;
+}
+
+hr {
+  border-top: 2px dotted #3f51b5;
+}
+
+button {
+  margin-right: 10px;
+  background: #3f51b5;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  width: 100px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 1px #ccc;
+}
+
+/* For pdf */
+.react-pdf__Page {
+  margin-top: 10px;
+}
+
+.react-pdf__Page__canvas {
+  height: 0vh;
+}
+
+.react-pdf__Page__textContent {
+  border: 1px solid darkgrey;
+  box-shadow: 5px 5px 5px 1px #ccc;
+  border-radius: 5px;
+  display: none !important;
+}
+
+.react-pdf__Page__annotations.annotationLayer {
+  display: none !important;
+}
+
+.react-pdf__Page__canvas {
+  margin: 0 auto;
+}
+
+/* For all pages */
+.all-page-container {
+  height: 100%;
+  max-height: 80vh;
+  overflow: hidden;
+}
+
+.bilten__container{
+  margin: 0 auto;
+  height: auto;
+  width: 60%;
+  display: flex;
+}
+
+.bilten__link {
+  flex: 1;
+  margin: 10px 10px;
+  width: 25%;
+  background: linear-gradient(315deg, hsla(267, 96%, 82%, 1) 0%, hsla(199, 39%, 72%, 1) 82%, hsla(191, 47%, 77%, 1) 100%);
+  border-radius: 10px;
+  border: 3px solid #fff;
+}
