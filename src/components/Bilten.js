@@ -36,17 +36,23 @@ export default function SinglePage(props) {
       </Document>
       <div>
         <p>
-          Page {pageNumber || (numPages ? 1 : "--")} of {numPages || "--"}
+          Stranica {pageNumber || (numPages ? 1 : "--")} od {numPages || "--"}
         </p>
-        <button type="button" disabled={pageNumber <= 1} onClick={previousPage}>
-          Previous
+        <button 
+          className="btn" 
+          type="button" 
+          disabled={pageNumber <= 1} 
+          onClick={previousPage}
+        >
+          NAZAD
         </button>
         <button
+          className="btn"
           type="button"
           disabled={pageNumber >= numPages}
           onClick={nextPage}
         >
-          Next
+          NAPRIJED
         </button>
       </div>
     </>
