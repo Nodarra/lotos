@@ -8,7 +8,7 @@
   text-align: center;
   background: linear-gradient(135deg, hsla(266, 100%, 40%, 1) 30%, hsla(199, 39%, 72%, 1) 95%, hsla(191, 47%, 77%, 1) 100%);
   color: #fff;
-  height: 150vh;
+  height: 170vh;
 }
 
 h4 {
@@ -63,7 +63,7 @@ button {
 .bilten__container{
   margin: 0 auto;
   height: auto;
-  width: 60%;
+  width: 50%;
   display: flex;
 }
 
@@ -75,6 +75,7 @@ button {
   border-radius: 10px;
   border: 3px solid #fff;
   text-decoration: none;
+  color: #000;
 }
 
 @media only screen and (max-width: 600px) {
